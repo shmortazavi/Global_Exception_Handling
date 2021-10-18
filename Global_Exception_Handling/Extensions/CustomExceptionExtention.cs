@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,11 +25,11 @@ namespace Global_Exception_Handling.Extensions
                     var contextFeature = context.Features.Get<IExceptionHandlerFeature>();
                     if (contextFeature != null)
                     {
-                        await context.Response.WriteAsync(JsonSerializer.Serialize(new
+                        await context.Response.WriteAsync(new ResponseError
                         {
-                            context.Response.StatusCode,
-                            contextFeature.Error.Message
-                        }));
+                            StatusCode = context.Response.StatusCode,
+                            Message = contextFeature.Error.Message
+                        }.ToString());
                     }
                 }));
         }
