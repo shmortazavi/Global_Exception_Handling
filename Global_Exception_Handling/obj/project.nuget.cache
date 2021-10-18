@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "gdFBhIG6RMOIWBiQVdHvTeizaCX1Z0W//5+zTmdewqBOC9Naq3YrcNEmIwrSOEze3y5jfUNU3K4yaqHYQOSidw==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\MINE\\Global_Exception_Handling\\Global_Exception_Handling\\Global_Exception_Handling.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LuckyEngineer\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\LuckyEngineer\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\LuckyEngineer\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\LuckyEngineer\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\LuckyEngineer\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\LuckyEngineer\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\LuckyEngineer\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.9\\microsoft.netcore.app.host.win-x64.5.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}
